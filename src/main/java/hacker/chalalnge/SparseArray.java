@@ -7,6 +7,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class SparseArray {
+	
 	HashMap<String, Integer> sparseArray(String[] source, String[] keys) {
 		HashMap<String, Integer> output = new HashMap<>();
 		for (int i = 0; i < keys.length; i++) {
